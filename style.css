@@ -1,0 +1,52 @@
+
+img{
+    display: block;
+height: 15rem;
+width: 15rem;
+margin-top: 2rem;
+border-style: none;
+}
+.text{
+    font-size: larger;
+ 
+    
+}
+@font-face {
+    font-family: myfont;
+    src: url("PokemonGb-RAeo.ttf");
+}
+body{
+    background:url(wallpaperflare.com_wallpaper.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "myfont";
+}
+
+#main{
+    display: flex;
+    justify-content: space-evenly;
+}
+i{
+    position: relative;
+left:2.5rem;
+color: black;
+bottom: 0.12rem;
+}
+input{
+    height: 2rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    padding-left: 1.7rem;
+}
+button{
+    position: relative;
+    background-color: black;
+    color:white;
+    bottom: 0.05rem;
+    height: 2rem;
+    width: 7rem;
+    border-radius:4rem ;
+    border: none;
+}
